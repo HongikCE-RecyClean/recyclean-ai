@@ -1,0 +1,18 @@
+path: ./dataset  # 전체 데이터셋의 루트 디렉토리
+train: train  # 학습용 이미지 경로
+val: val      # 학습 성과가 나오는 중인지 중간 검증용 이미지 경로
+test: test # 학습이 끝난 후 성능을 최종평가 할 때 쓰는 이미지 경로
+
+nc: 9  # 클래스 개수
+names:
+  [
+    "can",
+    "paper",
+    "pet",
+    "plastic",
+    "styrofoam",
+    "vinyl",
+    "glass",
+    "battery",
+    "fluorescent_tube"
+  ]
